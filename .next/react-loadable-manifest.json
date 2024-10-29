@@ -1,0 +1,20 @@
+{
+  "app/layout.tsx -> @/components/Footer": {
+    "id": "app/layout.tsx -> @/components/Footer",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Footer_tsx.js"
+    ]
+  },
+  "app/layout.tsx -> @/components/Header": {
+    "id": "app/layout.tsx -> @/components/Header",
+    "files": [
+      "static/chunks/_app-pages-browser_components_Header_tsx.js"
+    ]
+  },
+  "app/layout.tsx -> @/components/MobileNavigation": {
+    "id": "app/layout.tsx -> @/components/MobileNavigation",
+    "files": [
+      "static/chunks/_app-pages-browser_components_MobileNavigation_tsx.js"
+    ]
+  }
+}

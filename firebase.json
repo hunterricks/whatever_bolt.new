@@ -1,0 +1,21 @@
+import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
+import { getMessaging } from 'firebase/messaging';
+
+// Your Firebase config object
+const firebaseConfig = {
+  apiKey: "AIzaSyD58Kn-yvzewAT5_VYj4qi60SlQFrCOsdo",
+  authDomain: "whateverappv1.firebaseapp.com",
+  databaseURL: "https://whateverappv1-default-rtdb.firebaseio.com",
+  projectId: "whateverappv1",
+  storageBucket: "whateverappv1.appspot.com",
+  messagingSenderId: "84286156246",
+  appId: "1:84286156246:web:9131aec5335928414c4877",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+const messaging = getMessaging(app);
+
+export { db, messaging };
